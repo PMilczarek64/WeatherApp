@@ -2,6 +2,7 @@ import PickCity from '../PickCity/PickCity';
 import WeatherSummary from '../WeatherSummary/WeatherSummary';
 import Loader from '../Loader/Loader';
 import { useCallback, useState } from 'react';
+import ErrorBox from '../ErrorBox/ErrorBox';
 
 const WeatherBox = props => {
   const [weather, setWeather] = useState('');
@@ -28,7 +29,6 @@ const WeatherBox = props => {
             });
           } else {
             setError(true);
-            alert('ERROR!');
           }
         }, []);
       });
@@ -37,6 +37,7 @@ const WeatherBox = props => {
         <PickCity action={handleCityChange} />
         {weather && !pending && <WeatherSummary weather={weather} />}
         {pending && !error && <Loader />}
+        {error && <ErrorBox>There is no such city</ErrorBox>}
       </section>
     )
   };
