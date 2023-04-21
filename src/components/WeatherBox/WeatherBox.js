@@ -11,7 +11,7 @@ const WeatherBox = props => {
 
   const handleCityChange = useCallback((city) => {
     setPending(true);
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d1b5b4c49657a50b4b7e62e77e9d0e5a&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d1b5b4c49657a50b4b7e62e77e9d0e5a&units=metric`)
       .then(res => {
         if (res.status === 200) {
           return res.json()
@@ -30,8 +30,8 @@ const WeatherBox = props => {
           } else {
             setError(true);
           }
-        }, []);
-      });
+        });
+      }, []);
     return (
       <section>
         <PickCity action={handleCityChange} />
