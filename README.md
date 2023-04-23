@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<div align="center"> 
+  <img src="https://weather-react-bdx8.onrender.com/images/weather-icons/01d.png" alt="Weather-app-image" width="100" height="100"/>
+  <h1 align="center">WeatherApp <h1>
+  :eyes: Link to the project
+  <h4 align="center">https://weather-react-bdx8.onrender.com/</h4>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- About the Project -->
+<div>
+  <h2 align="center">:star2: About the project</h2>
+  <p>
+    WeatherApp is a simple and very useful weather app written in React using the OpenWeatherMap API. It is a great tool for users who want to quickly and easily get information about the current weather conditions in a selected location.
+All the user needs to do to get weather information is to type in the city and click a button.
+The application returns a message if the name of the city is incorrect, and has a loader that runs while the application waits for the server to respond.
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TechStack -->
+<div >
+  <h3>:space_invader: Tech Stack</h3>
+</div>
 
-### `yarn start`
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://sass-lang.com//">Sass</a></li>
+  </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- Run Locally -->
+### :running: Run Locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the project
 
-### `yarn test`
+```bash
+  git clone https://github.com/PMilczarek64/WeatherApp.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to the project directory
 
-### `yarn build`
+```bash
+  cd my-project
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the app
 
-### `yarn eject`
+```bash
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Contact -->
+## :handshake: See more of my projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+GitHub - [https://github.com/PMilczarek64](https://github.com/PMilczarek64)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://weather-react-bdx8.onrender.com/](https://weather-react-bdx8.onrender.com/)
